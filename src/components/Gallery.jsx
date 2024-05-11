@@ -86,7 +86,7 @@ function Gallery() {
             <div className="swiper-button-next slider-arrow dark:bg-white dark:text-primary-100">
               <IoIosArrowForward />
             </div>
-            <div className="swiper-pagination "></div>
+            <div className="swiper-pagination hidden md:block"></div>
           </div>
         </Swiper>
       </div>

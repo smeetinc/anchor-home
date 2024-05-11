@@ -28,7 +28,7 @@ function Section() {
             </p>
           </div>
         </div>
-        <div className="flex flex-col lg:flex-row w-fit h-fit  items-center my-8 bg-primary-200 text-white">
+        <div className="flex flex-col-reverse lg:flex-row w-fit h-fit  items-center my-8 bg-primary-200 text-white">
           <div className="w-full h-full  py-auto px-12 ">
             <h3 className="text-center font-bold text-2xl my-4">Bed Room</h3>
             <p className="my-4">
@@ -63,7 +63,7 @@ function Section() {
             </p>
           </div>
         </div>
-        <div className="flex flex-col lg:flex-row w-fit h-fit  items-center my-8 bg-primary-200 text-white">
+        <div className="flex flex-col-reverse lg:flex-row w-fit h-fit  items-center my-8 bg-primary-200 text-white">
           <div className="w-full h-full  py-auto px-12 ">
             <h3 className="text-center font-bold text-2xl my-4">Lounge</h3>
             <p className="my-4">
