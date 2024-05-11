@@ -7,28 +7,30 @@ function About() {
       <div name="about"></div>
       <div className="w-full px-4 py-6 grid grid-cols-1 lg:grid-cols-2 gap-8 mt-20 lg:mt-24">
         <div className="hidden lg:flex items-center gap-4 ">
-          <div className="grid grid-cols-1 rounded-lg">
-            <div className="rounded-lg w-fit h-fit">
+          <div className="grid grid-cols-2 gap-2 rounded-lg">
+            <div>
+              <div className="rounded-lg w-fit h-fit">
+                <img
+                  src="/assets/img/lounge1.webp"
+                  className="w-full h-full object-contain my-2 rounded-lg"
+                  alt="home one"
+                />
+              </div>
+              <div className="rounded-lg w-fit h-fit">
+                <img
+                  src="assets/img/bedroom.webp"
+                  className="w-full h-full object-contain my-2 rounded-lg"
+                  alt="home one"
+                />
+              </div>
+            </div>
+            <div className="rounded-lg">
               <img
-                src="/assets/img/img1.jpg"
-                className="w-full h-full object-contain my-2 rounded-lg"
+                src="assets/img/playArea.webp"
+                className="w-full h-full rounded-lg my-2"
                 alt="home one"
               />
             </div>
-            <div className="rounded-lg w-fit h-fit">
-              <img
-                src="assets/img/img1.jpg"
-                className="w-full h-full object-contain my-2 rounded-lg"
-                alt="home one"
-              />
-            </div>
-          </div>
-          <div className="rounded-lg">
-            <img
-              src="assets/img/img1.jpg"
-              className="w-full h-full object-contain rounded-lg"
-              alt="home one"
-            />
           </div>
         </div>
         <div>

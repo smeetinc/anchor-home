@@ -1,4 +1,5 @@
 import React from "react";
+
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
@@ -8,17 +9,16 @@ import "swiper/css/navigation";
 
 import { EffectCoverflow, Pagination, Navigation } from "swiper/modules";
 
-import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import "./gallery.css";
+import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 function Gallery() {
   return (
     <>
       <div name="gallery"></div>
-
-      <div className="container w-full text-center px-2 py-4 lg:px-16 bg-slate-200 dark:bg-sky-900 text-shades-200 dark:text-shades-150 mt-20 lg:mt-24">
-        <p className="text-lg text-center lg:mt-12 mt-8 mb-4">Check Out Our</p>
-        <h1 className="text-2xl text-center underline decoration-2 decoration-primary-200 underline-offset-8 my-6 font-bold">
+      <div className="w-full text-center px-2 py-4 lg:px-16   mt-20 lg:mt-24 overflow-x-hidden swiperContain">
+        <p class="text-lg text-center lg:mt-12 mt-8 mb-4">Check Out Our</p>
+        <h1 class="text-2xl text-center underline decoration-2 decoration-primary-200 underline-offset-8 my-6 font-bold">
           Gallery
         </h1>
 
@@ -79,16 +79,14 @@ function Gallery() {
           <SwiperSlide>
             <img src="/assets/img/sittingRoom.webp" alt="slide_image" />
           </SwiperSlide>
-          <div className="hidden lg:block">
-            <div className="slider-controler lg:flex gap-2 items-center hidden">
-              <div className="swiper-button-prev slider-arrow">
-                <IoIosArrowBack className="w-8 h-8" />
-              </div>
-              <div className="swiper-button-next slider-arrow w-fit">
-                <IoIosArrowForward className="w-8 h-8" />
-              </div>
-              <div className="swiper-pagination"></div>
+          <div className="slider-controler ">
+            <div className="swiper-button-prev slider-arrow dark:bg-white dark:text-primary-100">
+              <IoIosArrowBack className="" />
             </div>
+            <div className="swiper-button-next slider-arrow dark:bg-white dark:text-primary-100">
+              <IoIosArrowForward />
+            </div>
+            <div className="swiper-pagination "></div>
           </div>
         </Swiper>
       </div>

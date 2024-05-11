@@ -9,6 +9,8 @@ import Section from "./components/Section";
 import Gallery from "./components/Gallery";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
+import AnotherGallery from "./components/AnotherGallery";
+import FinalGallery from "./components/FinalGallery";
 
 function App() {
   const [theme, setTheme] = useState(null);
@@ -103,10 +105,7 @@ function App() {
             )}
           </div>
 
-          <div
-            onClick={() => setMenu(!menu)}
-            className="cursor-pointer mr-2 flex items-center gap-4 md:hidden"
-          >
+          <div className="flex items-center gap-4 md:hidden">
             <div onClick={handleThemeSwitch}>
               {theme === "dark" ? (
                 <FaMoon
@@ -120,7 +119,12 @@ function App() {
                 />
               )}
             </div>
-            {menu ? <FaTimes size={30} /> : <FaBars size={30} />}
+            <div
+              onClick={() => setMenu(!menu)}
+              className="cursor-pointer mr-2 "
+            >
+              {menu ? <FaTimes size={30} /> : <FaBars size={30} />}
+            </div>
           </div>
         </nav>
 
@@ -150,9 +154,12 @@ function App() {
 
       <Hero />
       <About />
+
       <Section />
       <Gallery />
+
       <Contact />
+
       <Footer />
     </main>
   );

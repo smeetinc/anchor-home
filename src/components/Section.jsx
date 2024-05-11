@@ -12,7 +12,7 @@ function Section() {
         <div className="flex flex-col lg:flex-row w-fit h-fit  items-center my-8 bg-primary-200 text-white">
           <div className="w-fit h-fit rounded-s-lg">
             <img
-              src="assets/img/img1.jpg"
+              src="assets/img/sittingRoom.webp"
               alt="home one"
               className="duration-1000 hover:scale-105 transition hover:duration-200 cursor-pointer w-full h-full object-contain"
             />
@@ -40,7 +40,7 @@ function Section() {
 
           <div className="w-fit rounded-s-lg justify-self-end">
             <img
-              src="assets/img/img1.jpg"
+              src="assets/img/bedroom.webp"
               alt="home one"
               className="duration-1000 hover:scale-105 transition hover:duration-200 cursor-pointer w-full h-full object-contain"
             />
@@ -49,18 +49,36 @@ function Section() {
         <div className="flex flex-col lg:flex-row w-fit h-fit  items-center my-8 bg-primary-200 text-white">
           <div className="w-fit rounded-s-lg">
             <img
-              src="assets/img/img1.jpg"
+              src="assets/img/playArea.webp"
               alt="home one"
               className="duration-1000 hover:scale-105 transition hover:duration-200 cursor-pointer w-full h-full object-contain"
             />
           </div>
           <div className="w-full h-full  py-auto px-12 ">
-            <h3 className="text-center font-bold text-2xl my-4">Garage</h3>
+            <h3 className="text-center font-bold text-2xl my-4">Play Area</h3>
             <p className="my-4">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
               id quam ea laboriosam sint illum voluptatibus culpa odio
               voluptatem repudiandae.
             </p>
+          </div>
+        </div>
+        <div className="flex flex-col lg:flex-row w-fit h-fit  items-center my-8 bg-primary-200 text-white">
+          <div className="w-full h-full  py-auto px-12 ">
+            <h3 className="text-center font-bold text-2xl my-4">Lounge</h3>
+            <p className="my-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
+              id quam ea laboriosam sint illum voluptatibus culpa odio
+              voluptatem repudiandae.
+            </p>
+          </div>
+
+          <div className="w-fit rounded-s-lg justify-self-end">
+            <img
+              src="assets/img/lounge1.webp"
+              alt="home one"
+              className="duration-1000 hover:scale-105 transition hover:duration-200 cursor-pointer w-full h-full object-contain"
+            />
           </div>
         </div>
       </div>
