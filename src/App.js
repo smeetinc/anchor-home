@@ -11,6 +11,7 @@ import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 import AnotherGallery from "./components/AnotherGallery";
 import FinalGallery from "./components/FinalGallery";
+import Carousel from "./components/Carousel";
 
 function App() {
   const [theme, setTheme] = useState(null);
@@ -150,7 +151,10 @@ function App() {
           </>
         )}
       </header>
-      <div className="w-full h-20"> </div>
+      {/* <div className="w-full h-20"> </div> */}
+      <div className="w-full overflow-x-hidden">
+        <Carousel />
+      </div>
 
       <Hero />
       <About />
