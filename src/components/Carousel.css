@@ -75,23 +75,25 @@ a {
 }
 
 .carousel .list .item .topic {
-  color: #f1683a;
+  color: #005c9c;
 }
 
 .carousel .list .item .buttons {
-  display: grid;
-  grid-template-columns: repeat(2, 130px);
-  grid-template-rows: 40px;
-  gap: 5px;
   margin-top: 20px;
+  width: fit-content;
+  padding: 1.5rem;
 }
 
 .carousel .list .item .buttons button {
   border: none;
-  background-color: #eee;
+  background-color: #181c31;
   letter-spacing: 3px;
   font-family: Poppins;
   font-weight: 500;
+  border-radius: 4px;
+  color: #fff;
+  width: fit-content;
+  padding: 0.75rem;
 }
 
 .carousel .list .item .buttons button:nth-child(2) {
@@ -134,7 +136,7 @@ a {
 }
 
 .thumbnail .item .content .title {
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .thumbnail .item .content .description {
