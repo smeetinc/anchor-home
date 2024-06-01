@@ -7,10 +7,10 @@ import { Link } from "react-scroll";
 function Hero() {
   return (
     <>
-      <div className="w-full px-4 py-4  ">
+      <div className="w-full  py-4  ">
         <div className="flex flex-col lg:flex-row justify-between items-center px-4">
           <div
-            className="flex items-center gap-3"
+            className="flex items-center gap-3 my-4 lg:my-0"
             data-aos="fade-down"
             data-aos-offset="200"
             data-aos-easing="ease-in-sine"
@@ -27,7 +27,7 @@ function Hero() {
             </div>
           </div>
           <div
-            className="flex items-center gap-3"
+            className="flex items-center gap-3 my-4 lg:my-0"
             data-aos="fade-down"
             data-aos-offset="200"
             data-aos-easing="ease-in-sine"
@@ -45,7 +45,7 @@ function Hero() {
             </div>
           </div>
           <div
-            className="flex items-center gap-3"
+            className="flex items-center gap-3 my-4 lg:my-0"
             data-aos="fade-down"
             data-aos-offset="200"
             data-aos-easing="ease-in-sine"

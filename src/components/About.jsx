@@ -92,7 +92,7 @@ function About() {
             data-aos-easing="ease-in-sine"
             data-aos-duration="600"
           >
-            <div className="absolute -inset-0.5 bg-gradient-to-r from-primary-100 to-primary-200  rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
+            <div className="absolute -inset-0.5   rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
             <div className="relative flex items-center gap-6 rounded-lg bg-primary-200 py-2 px-3 w-full h-full">
               <FaRegPlayCircle
                 size={30}
