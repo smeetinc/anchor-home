@@ -37,7 +37,7 @@ function Footer() {
         <p className="mt-16 lg:mt-0">
           &copy; 2024 Anchor Homes. All rights reserved.
         </p>
-        <div className="flex flex-col gap-6 lg:flex-row">
+        <div className="flex gap-4 lg:gap-6">
           <p>Privacy Policy</p>
           <p>Terms of Service</p>
           <p>Cookie Settings</p>

@@ -10,7 +10,7 @@ function About() {
   return (
     <>
       <div name="about"></div>
-      <div className="w-full px-4 py-6 grid grid-cols-1 lg:grid-cols-2 gap-8 mt-20 lg:mt-24">
+      <div className="w-full px-4 py-6 grid grid-cols-1 lg:grid-cols-2 gap-8 mt-16 lg:mt-24">
         <div className="hidden lg:flex items-center gap-4 ">
           <div className="grid grid-cols-2 gap-2 rounded-lg">
             <div>
@@ -92,13 +92,13 @@ function About() {
             data-aos-easing="ease-in-sine"
             data-aos-duration="600"
           >
-            <div className="absolute -inset-0.5 bg-gradient-to-r from-pink-600 to-primary-200  rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
+            <div className="absolute -inset-0.5 bg-gradient-to-r from-primary-100 to-primary-200  rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
             <div className="relative flex items-center gap-6 rounded-lg bg-primary-200 py-2 px-3 w-full h-full">
               <FaRegPlayCircle
                 size={30}
                 className="text-red-300 group-hover:rotate-180 transition duration-200"
               />
-              <span className="text-white group-hover:text-xl transition duration-200">
+              <span className="text-white transition duration-200">
                 Check our YouTube Page
               </span>
             </div>
@@ -127,7 +127,7 @@ function About() {
           amet optio.
         </p>
         <div className="flex justify-center items-center my-4">
-          <div className="grid grid-cols-2 gap-2 lg:gap-4 lg:grid-cols-3">
+          <div className="grid grid-cols-2 gap-2 lg:gap-6 lg:grid-cols-3 px-2 lg:px-0">
             <div
               className="w-fit h-fit bg-black rounded-lg"
               data-aos="fade-left"

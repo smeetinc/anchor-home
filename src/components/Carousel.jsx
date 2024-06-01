@@ -74,7 +74,7 @@ const Carousel = () => {
         <div className="list" ref={sliderRef}>
           <div className="item bg-black bg-opacity-90">
             <img src="image/bedroom2.webp" alt="Slide 1" className="" />
-            <div className="content">
+            <div className="content shadow-lg bg-black bg-opacity-75 px-8 py-8 w-full">
               <div className="author">WELCOME TO</div>
               <div className="text-xl lg:text-3xl font-bold my-2">ANCHOR'S</div>
               <div className="text-2xl lg:text-5xl font-extrabold uppercase text-primary-200 mb-2">
@@ -96,7 +96,7 @@ const Carousel = () => {
           </div>
           <div className="item">
             <img src="image/lounge2.webp" alt="Slide 2" />
-            <div className="content">
+            <div className="content shadow-lg bg-black bg-opacity-75 px-8 py-8 w-full">
               <div className="author">WELCOME TO</div>
               <div className="text-xl lg:text-3xl font-bold my-2">ANCHOR'S</div>
               <div className="text-2xl lg:text-5xl font-extrabold uppercase text-primary-200 mb-2">
@@ -136,7 +136,7 @@ const Carousel = () => {
           </div>
           <div className="item">
             <img src="image/sittingRoom.webp" alt="Slide 4" />
-            <div className="content">
+            <div className="content shadow-lg bg-black bg-opacity-75 px-8 py-8 w-full">
               <div className="author">WELCOME TO</div>
               <div className="text-xl lg:text-3xl font-bold my-2">ANCHOR'S</div>
               <div className="text-2xl lg:text-5xl font-extrabold uppercase text-primary-200 mb-2">
