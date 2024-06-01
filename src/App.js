@@ -12,8 +12,15 @@ import Contact from "./components/Contact";
 import AnotherGallery from "./components/AnotherGallery";
 import FinalGallery from "./components/FinalGallery";
 import Carousel from "./components/Carousel";
+import AOS from "aos";
+import "./aos/dist/aos.css";
+import RealGallery from "./components/RealGallery";
 
 function App() {
+  useEffect(() => {
+    AOS.init({ duration: 2000 });
+  }, []);
+
   const [theme, setTheme] = useState(null);
   const [menu, setMenu] = useState(false);
   const links = [
@@ -160,7 +167,7 @@ function App() {
       <About />
 
       <Section />
-      <Gallery />
+      <RealGallery />
 
       <Contact />
 

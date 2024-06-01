@@ -80,7 +80,7 @@ const Carousel = () => {
               <div className="text-2xl lg:text-5xl font-extrabold uppercase text-primary-200 mb-2">
                 Branston Lodge
               </div>
-              <div className="des">
+              <div className="des lg:text-lg font-medium">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut
                 sequi, rem magnam nesciunt minima placeat. itaque eum neque
                 officiis unde, eaque optio ratione aliquid assumenda facere ab
@@ -102,7 +102,7 @@ const Carousel = () => {
               <div className="text-2xl lg:text-5xl font-extrabold uppercase text-primary-200 mb-2">
                 Branston Lodge
               </div>
-              <div className="des">
+              <div className="des lg:text-lg font-medium">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut
                 sequi, rem magnam nesciunt minima placeat, itaque eum neque
                 officiis unde, eaque optio ratione aliquid assumenda facere ab
@@ -122,7 +122,7 @@ const Carousel = () => {
               <div className="text-2xl lg:text-5xl font-extrabold uppercase text-primary-200 mb-2">
                 Branston Lodge
               </div>
-              <div className="des">
+              <div className="des lg:text-lg font-medium">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut
                 sequi, rem magnam nesciunt minima placeat, itaque eum neque
                 officiis unde, eaque optio ratione aliquid assumenda facere ab
@@ -142,7 +142,7 @@ const Carousel = () => {
               <div className="text-2xl lg:text-5xl font-extrabold uppercase text-primary-200 mb-2">
                 Branston Lodge
               </div>
-              <div className="des">
+              <div className="des lg:text-lg font-medium">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut
                 sequi, rem magnam nesciunt minima placeat, itaque eum neque
                 officiis unde, eaque optio ratione aliquid assumenda facere ab
