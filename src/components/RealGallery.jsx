@@ -27,15 +27,6 @@ function RealGallery() {
     <>
       <div name="gallery"></div>
       <div className="w-full text-center    overflow-x-hidden  my-4">
-        <p
-          class="text-lg my-4"
-          data-aos="fade-zoom-in"
-          data-aos-offset="200"
-          data-aos-easing="ease-in-sine"
-          data-aos-duration="600"
-        >
-          Check Out Our
-        </p>
         <h1
           class="text-2xl text-center underline decoration-2 decoration-primary-200 underline-offset-8 font-bold"
           data-aos="fade-zoom-in"

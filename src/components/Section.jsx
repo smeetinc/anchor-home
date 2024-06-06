@@ -15,7 +15,7 @@ function Section() {
         <h2 className="my-4 font-bold text-3xl">
           Sections of the Homes Available
         </h2>
-        <div name="sittingRoom"></div>
+        <div name="firstLounge"></div>
         <div className="flex flex-col lg:flex-row w-fit h-fit  items-center my-8 ">
           <div
             className="w-fit h-fit rounded-s-lg"
@@ -26,136 +26,58 @@ function Section() {
           >
             <img
               src="assets/img/sittingRoom.webp"
-              alt="home one"
+              alt="first lounge"
               className="duration-1000 hover:scale-105 transition hover:duration-500 cursor-pointer w-full h-full object-contain shadow-lg rounded-md"
             />
           </div>
           <div className="w-full h-full  py-auto px-12 ">
             <h3
-              className="text-center font-bold text-2xl my-4"
+              className="text-right font-bold text-2xl my-4"
               data-aos="fade-zoom-in"
               data-aos-offset="200"
               data-aos-easing="ease-in-sine"
               data-aos-duration="600"
             >
-              Sitting Room
+              First Lounge
             </h3>
             <p
-              className="my-4"
+              className="my-4 text-left font-medium text-lg"
               data-aos="fade-zoom-in"
               data-aos-offset="200"
               data-aos-easing="ease-in-sine"
               data-aos-duration="600"
               data-aos-delay="300"
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
-              id quam ea laboriosam sint illum voluptatibus culpa odio
-              voluptatem repudiandae.
+              The First Lounge offers a cozy and inviting space for relaxation
+              and socializing. With comfortable seating and a warm ambiance,
+              it's the perfect place to unwind after a long day.
             </p>
           </div>
         </div>
-        <div name="bedroom"></div>
-        <div className="flex flex-col-reverse lg:flex-row w-fit h-fit  items-center my-8 ">
-          <div className="w-full h-full  py-auto px-12 ">
-            <h3
-              className="text-center font-bold text-2xl my-4"
-              data-aos="fade-zoom-in"
-              data-aos-offset="200"
-              data-aos-easing="ease-in-sine"
-              data-aos-duration="600"
-            >
-              Bed Room
-            </h3>
-            <p
-              className="my-4"
-              data-aos="fade-zoom-in"
-              data-aos-offset="200"
-              data-aos-easing="ease-in-sine"
-              data-aos-duration="600"
-              data-aos-delay="300"
-            >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
-              id quam ea laboriosam sint illum voluptatibus culpa odio
-              voluptatem repudiandae.
-            </p>
-          </div>
 
-          <div
-            className="w-fit rounded-s-lg justify-self-end"
-            data-aos="fade-left"
-            data-aos-offset="200"
-            data-aos-easing="ease-in-sine"
-            data-aos-duration="800"
-          >
-            <img
-              src="assets/img/bedroom2.webp"
-              alt="home one"
-              className="duration-1000 hover:scale-105 transition hover:duration-500 cursor-pointer w-full h-full object-contain shadow-lg rounded-md"
-            />
-          </div>
-        </div>
-        <div name="mainHouse"></div>
-        <div className="flex flex-col lg:flex-row w-fit h-fit  items-center my-8 ">
-          <div
-            className="w-fit rounded-s-lg"
-            data-aos="fade-right"
-            data-aos-offset="200"
-            data-aos-easing="ease-in-sine"
-            data-aos-duration="800"
-          >
-            <img
-              src="assets/img/mainHouse.webp"
-              alt="home one"
-              className="duration-1000 hover:scale-105 transition hover:duration-500 cursor-pointer w-full h-full object-contain shadow-lg rounded-md"
-            />
-          </div>
-          <div className="w-full h-full  py-auto px-12 ">
-            <h3
-              className="text-center font-bold text-2xl my-4"
-              data-aos="fade-zoom-in"
-              data-aos-offset="200"
-              data-aos-easing="ease-in-sine"
-              data-aos-duration="600"
-            >
-              Main House
-            </h3>
-            <p
-              className="my-4"
-              data-aos="fade-zoom-in"
-              data-aos-offset="200"
-              data-aos-easing="ease-in-sine"
-              data-aos-duration="600"
-              data-aos-delay="300"
-            >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
-              id quam ea laboriosam sint illum voluptatibus culpa odio
-              voluptatem repudiandae.
-            </p>
-          </div>
-        </div>
-        <div name="lounge"></div>
+        <div name="secondLounge"></div>
         <div className="flex flex-col-reverse lg:flex-row w-fit h-fit  items-center my-8  ">
           <div className="w-full h-full  py-auto px-12 ">
             <h3
-              className="text-center font-bold text-2xl my-4"
+              className="text-left font-bold text-2xl my-4"
               data-aos="fade-zoom-in"
               data-aos-offset="200"
               data-aos-easing="ease-in-sine"
               data-aos-duration="600"
             >
-              Lounge
+              Second Lounge
             </h3>
             <p
-              className="my-4"
+              className="my-4 text-right font-medium text-lg"
               data-aos="fade-zoom-in"
               data-aos-offset="200"
               data-aos-easing="ease-in-sine"
               data-aos-duration="600"
               data-aos-delay="300"
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae
-              id quam ea laboriosam sint illum voluptatibus culpa odio
-              voluptatem repudiandae.
+              The Second Lounge provides an additional space for entertainment
+              and activities. Equipped with modern amenities, it’s ideal for
+              movie nights, games, or hosting guests.
             </p>
           </div>
 
@@ -168,9 +90,127 @@ function Section() {
           >
             <img
               src="assets/img/lounge2.webp"
+              alt="The second lounge"
+              className="duration-1000 hover:scale-105 transition hover:duration-500 cursor-pointer w-full h-full object-contain shadow-lg rounded-md"
+            />
+          </div>
+        </div>
+
+        <div name="kitchen"></div>
+        <div className="flex flex-col lg:flex-row w-fit h-fit  items-center my-8 ">
+          <div
+            className="w-fit h-fit rounded-s-lg"
+            data-aos="fade-right"
+            data-aos-offset="200"
+            data-aos-easing="ease-in-sine"
+            data-aos-duration="800"
+          >
+            <img
+              src="assets/img/kitchen.webp"
+              alt="The Kitchen"
+              className="duration-1000 hover:scale-105 transition hover:duration-500 cursor-pointer w-full h-full object-contain shadow-lg rounded-md"
+            />
+          </div>
+          <div className="w-full h-full  py-auto px-12 ">
+            <h3
+              className="text-right font-bold text-2xl my-4"
+              data-aos="fade-zoom-in"
+              data-aos-offset="200"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="600"
+            >
+              Kitchen
+            </h3>
+            <p
+              className="my-4 text-left font-medium text-lg"
+              data-aos="fade-zoom-in"
+              data-aos-offset="200"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="600"
+              data-aos-delay="300"
+            >
+              Our modern kitchen is fully equipped with state-of-the-art
+              appliances, making it the heart of the home where delicious meals
+              are prepared with care and love.
+            </p>
+          </div>
+        </div>
+
+        <div name="bedroom1"></div>
+        <div className="flex flex-col-reverse lg:flex-row w-fit h-fit  items-center my-8 ">
+          <div className="w-full h-full  py-auto px-12 ">
+            <h3
+              className="text-left font-bold text-2xl my-4 "
+              data-aos="fade-zoom-in"
+              data-aos-offset="200"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="600"
+            >
+              Bedroom 1
+            </h3>
+            <p
+              className="my-4 text-right font-medium text-lg"
+              data-aos="fade-zoom-in"
+              data-aos-offset="200"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="600"
+              data-aos-delay="300"
+            >
+              Bedroom 1 offers a tranquil and comfortable space with ample
+              natural light, perfect for restful nights and refreshing mornings.
+            </p>
+          </div>
+
+          <div
+            className="w-fit rounded-s-lg justify-self-end"
+            data-aos="fade-left"
+            data-aos-offset="200"
+            data-aos-easing="ease-in-sine"
+            data-aos-duration="800"
+          >
+            <img
+              src="assets/img/bedroom.webp"
               alt="home one"
               className="duration-1000 hover:scale-105 transition hover:duration-500 cursor-pointer w-full h-full object-contain shadow-lg rounded-md"
             />
+          </div>
+        </div>
+        <div name="bedroom2"></div>
+        <div className="flex flex-col lg:flex-row w-fit h-fit  items-center my-8 ">
+          <div
+            className="w-fit rounded-s-lg"
+            data-aos="fade-right"
+            data-aos-offset="200"
+            data-aos-easing="ease-in-sine"
+            data-aos-duration="800"
+          >
+            <img
+              src="assets/img/bedroom2.webp"
+              alt="home one"
+              className="duration-1000 hover:scale-105 transition hover:duration-500 cursor-pointer w-full h-full object-contain shadow-lg rounded-md"
+            />
+          </div>
+          <div className="w-full h-full  py-auto px-12 ">
+            <h3
+              className="text-left font-bold text-2xl my-4"
+              data-aos="fade-zoom-in"
+              data-aos-offset="200"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="600"
+            >
+              Bedroom 2
+            </h3>
+            <p
+              className="my-4 font-medium text-lg text-left"
+              data-aos="fade-zoom-in"
+              data-aos-offset="200"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="600"
+              data-aos-delay="300"
+            >
+              Bedroom 2 is designed with comfort and style in mind, offering a
+              serene retreat with modern furnishings and cozy bedding.
+            </p>
           </div>
         </div>
       </div>

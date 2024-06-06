@@ -54,4 +54,34 @@ export const slides = [
     title: "Stairs view three",
     description: `Safe staircase`,
   },
+  {
+    src: "/assets/img/kitchen.webp",
+    title: "The Kitchen",
+    description: `Our Kitchen`,
+  },
+  {
+    src: "/assets/img/outside.webp",
+    title: "Outside View",
+    description: `Outside View of Branston Lodge`,
+  },
+  {
+    src: "/assets/img/wallDeco.webp",
+    title: "Wall Decoration",
+    description: `Creative wall decoration`,
+  },
+  {
+    src: "/assets/img/store.webp",
+    title: "Store",
+    description: `Books, toys, game equipment store`,
+  },
+  {
+    src: "/assets/img/gym.webp",
+    title: "Fitness Room",
+    description: `Fitness room`,
+  },
+  {
+    src: "/assets/img/frontDoor.webp",
+    title: "The Entrance",
+    description: `The Entrance`,
+  },
 ];

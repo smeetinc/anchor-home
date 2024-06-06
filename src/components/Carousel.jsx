@@ -73,7 +73,7 @@ const Carousel = () => {
       >
         <div className="list" ref={sliderRef}>
           <div className="item bg-black bg-opacity-90">
-            <img src="image/bedroom2.webp" alt="Slide 1" className="" />
+            <img src="/assets/img/mainHouse.webp" alt="Slide 1" className="" />
             <div className="content shadow-lg bg-black bg-opacity-75 px-8 py-8 w-full">
               <div className="author">WELCOME TO</div>
               <div className="text-xl lg:text-3xl font-bold my-2">ANCHOR'S</div>
@@ -81,21 +81,20 @@ const Carousel = () => {
                 Branston Lodge
               </div>
               <div className="des lg:text-lg font-medium">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut
-                sequi, rem magnam nesciunt minima placeat. itaque eum neque
-                officiis unde, eaque optio ratione aliquid assumenda facere ab
+                We provides high quality residential care to young people
+                between the ages of 6 and 18.
               </div>
               <div className="buttons">
-                <Link to="bedroom" smooth duration={500}>
+                <Link to="contact" smooth duration={500}>
                   <button className="bg-primary-100 text-white">
-                    View Details
+                    Connect with us
                   </button>
                 </Link>
               </div>
             </div>
           </div>
           <div className="item">
-            <img src="image/lounge2.webp" alt="Slide 2" />
+            <img src="/assets/img/frontDoor.webp" alt="Slide 2" />
             <div className="content shadow-lg bg-black bg-opacity-75 px-8 py-8 w-full">
               <div className="author">WELCOME TO</div>
               <div className="text-xl lg:text-3xl font-bold my-2">ANCHOR'S</div>
@@ -103,19 +102,18 @@ const Carousel = () => {
                 Branston Lodge
               </div>
               <div className="des lg:text-lg font-medium">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut
-                sequi, rem magnam nesciunt minima placeat, itaque eum neque
-                officiis unde, eaque optio ratione aliquid assumenda facere ab
+                Our front door opens to a world of warmth and care for every
+                young person.
               </div>
               <div className="buttons">
-                <Link to="lounge" smooth duration={500}>
-                  <button>View Details</button>
+                <Link to="contact" smooth duration={500}>
+                  <button>Connect with us</button>
                 </Link>
               </div>
             </div>
           </div>
           <div className="item">
-            <img src="image/mainHouse.webp" alt="Slide 3" />
+            <img src="/assets/img/outside.webp" alt="Slide 3" />
             <div className="content shadow-lg bg-black bg-opacity-75 px-8 py-8 w-full">
               <div className="author">WELCOME TO</div>
               <div className="text-xl lg:text-3xl font-bold my-2">ANCHOR'S</div>
@@ -123,33 +121,12 @@ const Carousel = () => {
                 Branston Lodge
               </div>
               <div className="des lg:text-lg font-medium">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut
-                sequi, rem magnam nesciunt minima placeat, itaque eum neque
-                officiis unde, eaque optio ratione aliquid assumenda facere ab
+                Experience the tranquility and beauty of our home's
+                surroundings.
               </div>
               <div className="buttons">
-                <Link to="mainHouse" smooth duration={500}>
-                  <button>View Details</button>
-                </Link>
-              </div>
-            </div>
-          </div>
-          <div className="item">
-            <img src="image/sittingRoom.webp" alt="Slide 4" />
-            <div className="content shadow-lg bg-black bg-opacity-75 px-8 py-8 w-full">
-              <div className="author">WELCOME TO</div>
-              <div className="text-xl lg:text-3xl font-bold my-2">ANCHOR'S</div>
-              <div className="text-2xl lg:text-5xl font-extrabold uppercase text-primary-200 mb-2">
-                Branston Lodge
-              </div>
-              <div className="des lg:text-lg font-medium">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut
-                sequi, rem magnam nesciunt minima placeat, itaque eum neque
-                officiis unde, eaque optio ratione aliquid assumenda facere ab
-              </div>
-              <div className="buttons">
-                <Link to="sittingRoom" smooth duration={500}>
-                  <button>View Details</button>
+                <Link to="contact" smooth duration={500}>
+                  <button>Connect with us</button>
                 </Link>
               </div>
             </div>
@@ -158,36 +135,27 @@ const Carousel = () => {
 
         <div className="thumbnail" ref={thumbnailRef}>
           <div className="item">
-            <img src="image/bedroom2.webp" alt="Thumbnail 1" />
+            <img src="/assets/img/mainHouse.webp" alt="Thumbnail 1" />
             <div className="content">
-              <div className="title text-shadow-lg font-bold text-lg">
-                Bedroom
+              <div className="title text-shadow-lg font-bold text-sm text-primary-100 bg-white w-full p-2 bg-opacity-70">
+                Main Building
               </div>
               <div className="description"></div>
             </div>
           </div>
           <div className="item">
-            <img src="image/lounge2.webp" alt="Thumbnail 2" />
+            <img src="/assets/img/frontDoor.webp" alt="Thumbnail 2" />
             <div className="content">
-              <div className="title text-shadow-lg font-bold text-lg">
-                {" "}
-                Our Lounge
+              <div className="title text-shadow-lg font-bold text-sm text-primary-100 bg-white w-full p-2 bg-opacity-70">
+                The Entrance
               </div>
             </div>
           </div>
           <div className="item">
-            <img src="image/mainHouse.webp" alt="Thumbnail 3" />
+            <img src="assets/img/outside.webp" alt="Thumbnail 3" />
             <div className="content">
-              <div className="title text-shadow-lg font-bold text-lg">
-                Main House
-              </div>
-            </div>
-          </div>
-          <div className="item">
-            <img src="image/sittingRoom.webp" alt="Thumbnail 4" />
-            <div className="content">
-              <div className="title text-shadow-lg font-bold text-lg">
-                Sitting Room
+              <div className="title text-shadow-lg font-bold text-sm text-primary-100 bg-white w-full p-2 bg-opacity-70">
+                Outside View
               </div>
             </div>
           </div>

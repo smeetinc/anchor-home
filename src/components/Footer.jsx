@@ -10,21 +10,31 @@ function Footer() {
             <img
               src="assets/img/logo-light.svg"
               alt="Anchor Homes logo"
-              className="w-20 h-20 object-contain lg:mx-auto"
+              className="w-20 h-20 object-contain mx-auto"
             />
           </Link>
         </div>
-        <div className="flex flex-col gap-5 ml-4 lg:ml-0 lg:inline-block lg:space-x-4 mt-3 mb-5">
+        <div className="flex my-4 justify-center gap-6 items-center px-4">
           <Link to="home" smooth duration={500} className="cursor-pointer">
             <span>Home</span>
           </Link>
           <Link to="about" smooth duration={500} className="cursor-pointer">
             <span>About Us</span>
           </Link>
-          <Link to="section" smooth duration={500} className="cursor-pointer">
+          <Link
+            to="section"
+            smooth
+            duration={500}
+            className="cursor-pointer hidden lg:block"
+          >
             <span>Section</span>
           </Link>
-          <Link to="gallery" smooth duration={500} className="cursor-pointer">
+          <Link
+            to="gallery"
+            smooth
+            duration={500}
+            className="cursor-pointer hidden lg:block"
+          >
             <span>Gallery</span>
           </Link>
           <Link to="/contact" smooth duration={500} className="cursor-pointer">

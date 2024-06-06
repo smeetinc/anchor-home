@@ -15,8 +15,23 @@ import Carousel from "./components/Carousel";
 import AOS from "aos";
 import "./aos/dist/aos.css";
 import RealGallery from "./components/RealGallery";
+import { IoIosArrowUp } from "react-icons/io";
 
 function App() {
+  const [isVisible, setIsVisible] = useState(false);
+
+  const handleScroll = () => {
+    const scrollPosition = window.scrollY;
+    setIsVisible(scrollPosition > 200); // Adjust the value as needed
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   useEffect(() => {
     AOS.init({ duration: 2000 });
   }, []);
@@ -159,11 +174,19 @@ function App() {
         )}
       </header>
       {/* <div className="w-full h-20"> </div> */}
+      <div>
+        {isVisible && (
+          <div className="fixed bottom-9 right-2 cursor-pointer px-2 py-2 bg-primary-200 text-white font-bold z-50 rounded-lg">
+            <Link to="home" smooth duration={500}>
+              <IoIosArrowUp size={25} />
+            </Link>
+          </div>
+        )}
+      </div>
       <div className="w-full overflow-x-hidden">
         <Carousel />
       </div>
 
-      <Hero />
       <About />
 
       <Section />
