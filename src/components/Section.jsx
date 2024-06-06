@@ -32,7 +32,7 @@ function Section() {
           </div>
           <div className="w-full h-full  py-auto px-12 ">
             <h3
-              className="text-right font-bold text-2xl my-4"
+              className="text-left font-bold text-2xl my-4"
               data-aos="fade-zoom-in"
               data-aos-offset="200"
               data-aos-easing="ease-in-sine"
@@ -68,7 +68,7 @@ function Section() {
               Second Lounge
             </h3>
             <p
-              className="my-4 text-right font-medium text-lg"
+              className="my-4 text-left font-medium text-lg"
               data-aos="fade-zoom-in"
               data-aos-offset="200"
               data-aos-easing="ease-in-sine"
@@ -113,7 +113,7 @@ function Section() {
           </div>
           <div className="w-full h-full  py-auto px-12 ">
             <h3
-              className="text-right font-bold text-2xl my-4"
+              className="text-left font-bold text-2xl my-4"
               data-aos="fade-zoom-in"
               data-aos-offset="200"
               data-aos-easing="ease-in-sine"
@@ -149,7 +149,7 @@ function Section() {
               Bedroom 1
             </h3>
             <p
-              className="my-4 text-right font-medium text-lg"
+              className="my-4 text-left font-medium text-lg"
               data-aos="fade-zoom-in"
               data-aos-offset="200"
               data-aos-easing="ease-in-sine"
