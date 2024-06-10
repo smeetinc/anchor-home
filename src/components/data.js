@@ -84,4 +84,19 @@ export const slides = [
     title: "The Entrance",
     description: `The Entrance`,
   },
+  {
+    src: "/assets/img/bedroom3.webp",
+    title: "Bedroom Three",
+    description: `Nice bedroom for proper rest`,
+  },
+  {
+    src: "/assets/img/bathroom.webp",
+    title: "The Bathroom",
+    description: `The Bathroom`,
+  },
+  {
+    src: "/assets/img/bedroom4.webp",
+    title: "Bedroom Three Alternative View",
+    description: `Nice bedroom for proper rest`,
+  },
 ];

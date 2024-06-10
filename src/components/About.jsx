@@ -2,6 +2,8 @@ import React, { useEffect } from "react";
 import { FaRegPlayCircle } from "react-icons/fa";
 import AOS from "aos";
 import "../aos/dist/aos.css";
+import { Link } from "react-scroll";
+import { CiLinkedin } from "react-icons/ci";
 
 function About() {
   useEffect(() => {
@@ -61,29 +63,95 @@ function About() {
             How We
           </h3>
           <h1
-            className="text-3xl font-semibold my-4"
+            className="text-3xl font-semibold my-4 text-primary-200"
             data-aos="fade-zoom-in"
             data-aos-offset="200"
             data-aos-easing="ease-in-sine"
             data-aos-duration="600"
             data-aos-delay="300"
           >
-            Make Our Clients Happy.
+            Make Young People Happy.
           </h1>
           <p
-            className="text-shades-150 mb-3"
+            className=" mb-3"
             data-aos="fade-zoom-in"
             data-aos-offset="200"
             data-aos-easing="ease-in-sine"
             data-aos-duration="600"
             data-aos-delay="500"
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-            nostrum facilis dolor blanditiis dignissimos rem a temporibus
-            inventore eos aliquam autem officia, repudiandae aliquid officiis
-            accusantium? Quos ex excepturi quisquam exercitationem laudantium
-            eaque quasi aliquam, dolorem, quae eveniet minima modi.
+            Our mission is to change young people's lives. We do this in many
+            ways, including setting firm and consistent boundaries
           </p>
+          <h3 className="font-bold text-primary-200">We achieve these by:</h3>
+          <ul className="list-none hover:list-disc">
+            <li
+              className="my-2"
+              data-aos="fade-zoom-in"
+              data-aos-offset="200"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="600"
+            >
+              Creating opportunities for young people to experience new things
+            </li>
+            <li
+              className="my-2"
+              data-aos="fade-zoom-in"
+              data-aos-offset="200"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="600"
+            >
+              Encouraging young people to make positive changes in their lives
+            </li>
+            <li
+              className="my-2"
+              data-aos="fade-zoom-in"
+              data-aos-offset="200"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="600"
+            >
+              Playing with our young people and having fun
+            </li>
+            <li
+              className="my-2"
+              data-aos="fade-zoom-in"
+              data-aos-offset="200"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="600"
+            >
+              Setting goals and targets so that young people know what they are
+              aiming for
+            </li>
+            <li
+              className="my-2"
+              data-aos="fade-zoom-in"
+              data-aos-offset="200"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="600"
+            >
+              Giving young people the confidence to know that change is possible
+              and achievable
+            </li>
+            <li
+              className="my-2"
+              data-aos="fade-zoom-in"
+              data-aos-offset="200"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="600"
+            >
+              Preparing young people to take their place in society as adults
+              with purpose
+            </li>
+            <li
+              className="my-2"
+              data-aos="fade-zoom-in"
+              data-aos-offset="200"
+              data-aos-easing="ease-in-sine"
+              data-aos-duration="600"
+            >
+              Building self-esteem and self-reliance
+            </li>
+          </ul>
 
           <div
             className="my-4 relative group w-fit h-fit cursor-pointer"
@@ -92,16 +160,19 @@ function About() {
             data-aos-easing="ease-in-sine"
             data-aos-duration="600"
           >
-            <div className="absolute -inset-0.5   rounded-lg blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200 animate-tilt"></div>
-            <div className="relative flex items-center gap-6 rounded-lg bg-primary-200 py-2 px-3 w-full h-full">
-              <FaRegPlayCircle
-                size={30}
-                className="text-red-300 group-hover:rotate-180 transition duration-200"
-              />
-              <span className="text-white transition duration-200">
-                Check our YouTube Page
-              </span>
-            </div>
+            <a
+              href="https://www.linkedin.com/company/anchor-care-and-education-ltd"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="flex items-center gap-6 rounded-lg bg-primary-200 py-2 px-3 w-full h-full">
+                <CiLinkedin size={30} className="text-white" />
+
+                <span className="text-white transition duration-200">
+                  Check us on Linkedin
+                </span>
+              </div>
+            </a>
           </div>
         </div>
       </div>
