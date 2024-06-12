@@ -84,11 +84,7 @@ export const slides = [
     title: "The Entrance",
     description: `The Entrance`,
   },
-  {
-    src: "/assets/img/bedroom3.webp",
-    title: "Bedroom Three",
-    description: `Nice bedroom for proper rest`,
-  },
+
   {
     src: "/assets/img/bathroom.webp",
     title: "The Bathroom",
@@ -96,7 +92,7 @@ export const slides = [
   },
   {
     src: "/assets/img/bedroom4.webp",
-    title: "Bedroom Three Alternative View",
+    title: "Bedroom Two Alternative View",
     description: `Nice bedroom for proper rest`,
   },
 ];

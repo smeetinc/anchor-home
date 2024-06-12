@@ -73,7 +73,11 @@ const Carousel = () => {
       >
         <div className="list" ref={sliderRef}>
           <div className="item bg-black bg-opacity-90">
-            <img src="/assets/img/mainHouse.webp" alt="Slide 1" className="" />
+            <img
+              src="/assets/img/mainHouse.webp"
+              alt="Slide 1"
+              className="bg-primary-100"
+            />
             <div className="content shadow-lg bg-black bg-opacity-75 px-8 py-8 w-full">
               <div className="author">WELCOME TO</div>
               <div className="text-xl lg:text-3xl font-bold my-2">ANCHOR'S</div>
@@ -94,7 +98,11 @@ const Carousel = () => {
             </div>
           </div>
           <div className="item">
-            <img src="/assets/img/frontDoor.webp" alt="Slide 2" />
+            <img
+              src="/assets/img/frontDoor.webp"
+              alt="Slide 2"
+              className="bg-primary-100"
+            />
             <div className="content shadow-lg bg-black bg-opacity-75 px-8 py-8 w-full">
               <div className="author">WELCOME TO</div>
               <div className="text-xl lg:text-3xl font-bold my-2">ANCHOR'S</div>
@@ -113,7 +121,11 @@ const Carousel = () => {
             </div>
           </div>
           <div className="item">
-            <img src="/assets/img/outside.webp" alt="Slide 3" />
+            <img
+              src="/assets/img/outside.webp"
+              alt="Slide 3"
+              className="bg-primary-100"
+            />
             <div className="content shadow-lg bg-black bg-opacity-75 px-8 py-8 w-full">
               <div className="author">WELCOME TO</div>
               <div className="text-xl lg:text-3xl font-bold my-2">ANCHOR'S</div>
@@ -134,8 +146,12 @@ const Carousel = () => {
         </div>
 
         <div className="thumbnail" ref={thumbnailRef}>
-          <div className="item">
-            <img src="/assets/img/mainHouse.webp" alt="Thumbnail 1" />
+          <div className="item ">
+            <img
+              src="/assets/img/mainHouse.webp"
+              alt="Loading the main house..."
+              className="bg-primary-200"
+            />
             <div className="content">
               <div className="title text-shadow-lg font-bold text-sm text-primary-100 bg-white w-full p-2 bg-opacity-70">
                 Main Building
@@ -144,7 +160,11 @@ const Carousel = () => {
             </div>
           </div>
           <div className="item">
-            <img src="/assets/img/frontDoor.webp" alt="Thumbnail 2" />
+            <img
+              src="/assets/img/frontDoor.webp"
+              alt="Loading the Front door ..."
+              className="bg-primary-200"
+            />
             <div className="content">
               <div className="title text-shadow-lg font-bold text-sm text-primary-100 bg-white w-full p-2 bg-opacity-70">
                 The Entrance
@@ -152,7 +172,11 @@ const Carousel = () => {
             </div>
           </div>
           <div className="item">
-            <img src="assets/img/outside.webp" alt="Thumbnail 3" />
+            <img
+              src="assets/img/outside.webp"
+              alt="Loading outside ...."
+              className="bg-primary-200"
+            />
             <div className="content">
               <div className="title text-shadow-lg font-bold text-sm text-primary-100 bg-white w-full p-2 bg-opacity-70">
                 Outside View
