@@ -17,7 +17,7 @@ function Contact() {
             07900 530285{" "}
           </a>
           <br />
-          or email:{" "}
+          or email: <br />
           <a
             href="mailto:enquiries@anchorcareandeducation.co.uk"
             className="text-primary-200 font-semibold text-sm lg:text-base"
