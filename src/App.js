@@ -81,7 +81,7 @@ function App() {
     setTheme(theme === "dark" ? "light" : "dark");
   };
   return (
-    <main className="App bg-white min-h-screen dark:bg-primary-100 dark:text-white relative overflow-x-hidden">
+    <main className="App bg-white min-h-screen dark:bg-primary-100 dark:text-white relative ">
       <header className="px-4 shadow py-2 fixed w-full z-[9999]  h-fit bg-white dark:bg-primary-100 dark:text-white ">
         <nav className="flex justify-between items-center">
           <Link to={links[0].link} smooth duration={500}>
@@ -187,9 +187,13 @@ function App() {
         <Carousel />
       </div>
 
-      <About />
+      <div className="w-full overflow-hidden">
+        <About />
+      </div>
+      <div className="w-full overflow-x-hidden">
+        <Section />
+      </div>
 
-      <Section />
       <RealGallery />
 
       <Contact />

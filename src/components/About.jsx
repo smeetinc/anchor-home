@@ -176,7 +176,7 @@ function About() {
           </div>
         </div>
       </div>
-      <div className="w-full my-4 text-center">
+      <div className="w-full my-4 text-center px-4">
         <h2
           className="font-bold text-3xl"
           data-aos="fade-zoom-in"
@@ -198,7 +198,7 @@ function About() {
           amet optio.
         </p>
         <div className="flex justify-center items-center my-4">
-          <div className="grid grid-cols-2 gap-2 lg:gap-6 lg:grid-cols-3 px-2 lg:px-0">
+          <div className="grid grid-cols-2 gap-2 lg:gap-6 lg:grid-cols-3 px-2 lg:px-0 ">
             <div
               className="w-fit h-fit bg-black rounded-lg"
               data-aos="fade-left"

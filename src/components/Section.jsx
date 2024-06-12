@@ -16,7 +16,7 @@ function Section() {
           Sections of the Homes Available
         </h2>
         <div name="firstLounge"></div>
-        <div className="flex flex-col lg:flex-row w-fit h-fit  items-center my-8 ">
+        <div className="flex flex-col lg:flex-row w-full h-fit  items-center my-8 ">
           <div
             className="w-fit h-fit rounded-s-lg"
             data-aos="fade-right"
@@ -56,7 +56,7 @@ function Section() {
         </div>
 
         <div name="secondLounge"></div>
-        <div className="flex flex-col-reverse lg:flex-row w-fit h-fit  items-center my-8  ">
+        <div className="flex flex-col-reverse lg:flex-row w-full h-fit  items-center my-8  ">
           <div className="w-full h-full  py-auto px-12 ">
             <h3
               className="text-left font-bold text-2xl my-4"
@@ -97,7 +97,7 @@ function Section() {
         </div>
 
         <div name="kitchen"></div>
-        <div className="flex flex-col lg:flex-row w-fit h-fit  items-center my-8 ">
+        <div className="flex flex-col lg:flex-row w-full h-fit  items-center my-8 ">
           <div
             className="w-fit h-fit rounded-s-lg"
             data-aos="fade-right"
@@ -137,7 +137,7 @@ function Section() {
         </div>
 
         <div name="bedroom1"></div>
-        <div className="flex flex-col-reverse lg:flex-row w-fit h-fit  items-center my-8 ">
+        <div className="flex flex-col-reverse lg:flex-row w-full h-fit  items-center my-8 ">
           <div className="w-full h-full  py-auto px-12 ">
             <h3
               className="text-left font-bold text-2xl my-4 "
@@ -176,7 +176,7 @@ function Section() {
           </div>
         </div>
         <div name="bedroom2"></div>
-        <div className="flex flex-col lg:flex-row w-fit h-fit  items-center my-8 ">
+        <div className="flex flex-col lg:flex-row w-full h-fit  items-center my-8 ">
           <div
             className="w-fit rounded-s-lg"
             data-aos="fade-right"

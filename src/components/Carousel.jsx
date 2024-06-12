@@ -145,7 +145,7 @@ const Carousel = () => {
           </div>
         </div>
 
-        <div className="thumbnail" ref={thumbnailRef}>
+        <div className="thumbnail overflow-x-hidden" ref={thumbnailRef}>
           <div className="item hidden md:block">
             <img
               src="/assets/img/mainHouse.webp"
