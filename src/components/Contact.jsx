@@ -20,7 +20,7 @@ function Contact() {
           or email:{" "}
           <a
             href="mailto:enquiries@anchorcareandeducation.co.uk"
-            className="text-primary-200 font-semibold"
+            className="text-primary-200 font-semibold text-sm lg:text-base"
             target="_blank"
             rel="noreferrer"
           >
