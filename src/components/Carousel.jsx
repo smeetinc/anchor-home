@@ -146,7 +146,7 @@ const Carousel = () => {
         </div>
 
         <div className="thumbnail" ref={thumbnailRef}>
-          <div className="item ">
+          <div className="item hidden md:block">
             <img
               src="/assets/img/mainHouse.webp"
               alt="Loading the main house..."
@@ -159,7 +159,7 @@ const Carousel = () => {
               <div className="description"></div>
             </div>
           </div>
-          <div className="item">
+          <div className="item hidden md:block">
             <img
               src="/assets/img/frontDoor.webp"
               alt="Loading the Front door ..."
@@ -171,7 +171,7 @@ const Carousel = () => {
               </div>
             </div>
           </div>
-          <div className="item">
+          <div className="item hidden md:block">
             <img
               src="assets/img/outside.webp"
               alt="Loading outside ...."

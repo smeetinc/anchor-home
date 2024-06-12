@@ -10,7 +10,7 @@ function Section() {
   return (
     <>
       <div name="section"></div>
-      <div className="w-full text-center px-2 py-4 lg:px-16 bg-slate-200 dark:bg-sky-900 text-shades-200 dark:text-shades-150 mt-20 lg:mt-24">
+      <div className="w-full text-center px-2 py-4 lg:px-16 bg-slate-200 dark:bg-sky-900 text-shades-200 dark:text-shades-150 mt-20 lg:mt-24 overflow-x-hidden">
         <p className="my-4 font-medium">View Key</p>
         <h2 className="my-4 font-bold text-3xl">
           Sections of the Homes Available
